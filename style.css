@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle at center, #1b1f38, #0b0e1a);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
